@@ -1,6 +1,6 @@
 ﻿{
   "NotebookFounds": "{0} Notizbücher gefunden.",
-  "PleaseChooseNotebookToExport": "Bitte geben Sie die Nummer des Notizbuchs an, das exportiert werden soll. Sollen mehrere Notizbücher exportiert werden, listen Sie weitere Nummern mit Trennung durch Komma. (Beispiel: \"2,3,4\") : ",
+  "PleaseChooseNotebookToExport": "Bitte geben Sie die Nummer des Notizbuchs an, das exportiert werden soll. Sollen mehrere Notizbücher exportiert werden, listen Sie weitere Nummern durch Trennung mit Komma. (Beispiel: \"2,3,4\") : ",
   "ExportAllNotebooks": "[0] Alle Notizbücher exportieren.",
   "ErrorImageExtract": "Fehler beim Versuch, Bilder aus der Seite zu extrahieren.",
   "ExportNotebookPositionX": "[{0}] {1}",
@@ -16,15 +16,15 @@
   "ErrorDuringNotebookProcessingNbTree": "Fehler während der Verarbeitung des folgenden Notizbuchs: {0} [{1}]. Der Baum des Notizbuchs konnte nicht durchlaufen werden. Fehlermeldung: {2}",
   "EndOfExport": "\nDer Export ist abgeschlossen. Drücken Sie eine beliebige Taste zum Beenden...",
   "NotebookNameNotFound": "Notizbuch '{0}' konnte nicht gefunden werden. Kann es sein, dass es in OneNote nicht geöffnet ist?",
-  "WelcomeMessage": "Bevor Sie fortfahren, stellen Sie bitte Folgendes sicher:\n\n* OneNote und Word der OfficeSuite sind korrekt installiert.\n* OneNote wurde gestartet and die Notizbücher, die exportiert werden sollen, sind geöffnet.\n* Die Software PanDoc ist installiert (https://pandoc.org/installing.html).\nDieses Tool und OneNote wurden mit normalen Nutzerprivilegien gestartet (NICHT als Administrator)\n\nBekannte Einschränkungen:\n* Die Gratis-App 'One Note für Windows' wird nicht unterstützt\n* Dateianhänge mit bestimmten Dateierweiterungen werden nicht unterstützt. Dazu gehören: wma, wmv, mpg, svg, mp3 (Siehe Issue #39)\n* Passwortgeschützte Abschnitte werden nicht exportiert\n* Freihandzeichnungen werden nicht exportiert\n\n/!\\ Behalten Sie stets eine Sicherheitskopie Ihrer OneNote Notizbücher, sofern Sie später bemerken sollten, dass im Export noch Daten fehlen. /!\\\n",
+  "WelcomeMessage": "Bevor Sie fortfahren, stellen Sie bitte Folgendes sicher:\n\n* OneNote und Word der OfficeSuite sind korrekt installiert.\n* OneNote wurde gestartet und die Notizbücher, die exportiert werden sollen, sind geöffnet.\n* Die Software PanDoc ist installiert (https://pandoc.org/installing.html).\nDieses Tool und OneNote wurden mit normalen Benutzerrechten ausgeführt (NICHT als Administrator)\n\nBekannte Einschränkungen:\n* Die Gratis-App 'One Note für Windows' wird nicht unterstützt\n* Dateianhänge mit bestimmten Dateiendungen werden nicht unterstützt. Dazu gehören: wma, wmv, mpg, svg, mp3 (Siehe Issue #39)\n* Passwortgeschützte Abschnitte werden nicht exportiert (außer, sie wurden zuvor entsperrt)\n* Freihandzeichnungen werden nicht exportiert\n\n/!\\ Behalten Sie stets eine Sicherheitskopie Ihrer OneNote Notizbücher - um Verlust zu vermeiden sofern Sie später bemerken sollten, dass im Export noch Daten fehlen. /!\\\n",
   "PressEnter": "Drücken Sie [Enter], um fortzufahren...",
   "ExportFolder": "Export",
-  "ErrorWhileStartingOnenote": "Fehler beim Starten von OneNote. Bitte prüfen Sie, ob OneNote bereits läuft. Versuchen Sie, OneNote zu schließen und neu zu starten.",
-  "ErrorDuringOneNoteExport": "OneNote hat einen Fehler beim Export folgender Seite gemeldet: '{0}'",
-  "DoYouWantToUpdateSettings": "Wollen Sie den Editor für erweiterte Einstellungen öffnen?\n[ja] oder [Enter] eingeben, um fortzufahren mit den aktuellen Einstellungen.",
+  "ErrorWhileStartingOnenote": "Fehler beim Starten von OneNote. Bitte prüfen Sie, ob OneNote bereits ausgeführt wird. Versuchen Sie, OneNote zu schließen und neu zu starten.",
+  "ErrorDuringOneNoteExport": "OneNote meldet einen Fehler beim Export folgender Seite: '{0}'",
+  "DoYouWantToUpdateSettings": "Wollen Sie den Editor für die erweiterten Einstellungen öffnen?\n[ja] eingeben zur Bestätigung. [Enter] drücken, um fortzufahren mit den aktuellen Einstellungen.",
   "YesAnswer": "ja",
   "FoundXSections": "--> Es wurden {0} Abschnitte gefunden.\n",
   "FoundXSectionsAndSecGrp": "--> Es wurden {0} Abschnitte and Abschnittsgruppen gefunden.\n",
-  "StartProcessingSectionX": "Beginne mit der Verarbeitung des Abschnitts",
+  "StartProcessingSectionX": "Beginne mit der Verarbeitung des Abschnitts ",
   "Page": "Seite"
 }
